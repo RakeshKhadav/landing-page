@@ -86,3 +86,43 @@
 .one-image {
     padding-right: 100px;
 }
+
+.two {
+    padding: 30px;
+    height: 400px;
+}
+
+.two-heading-text {
+    color: #1F2937;
+    font-weight: 900;
+    font-family: 'Roboto';
+    font-size: 36px;
+    text-align: center;
+}
+
+.two-images-text {
+    height: 280px;
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+    align-items: center;
+}
+
+.two-images-text > div {
+    width: 150px;
+    height: 180px;
+}
+
+.two-images-text > div > img{
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+    border: 4px solid #3882F6;
+}
+
+.two-images-text > div > p {
+    color: #1F2937;
+    font-family: "Roboto";
+    font-size: 14px;
+    text-align: center;
+}
