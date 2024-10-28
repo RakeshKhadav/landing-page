@@ -146,7 +146,6 @@
     font-size: 36px;
     font-style: italic;
     font-weight: lighter;
-    text-align: center;
 }
 
 .three-name > p {
@@ -155,4 +154,58 @@
     font-family: 'Roboto';
     font-weight: bold;
     padding-right: 400px;
+}
+
+.four {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.four-container {
+    background-color: #3882F6;
+    height: 120px;
+    width: 900px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 50px;
+}
+
+.four-text-div {
+    height: 80px;
+    width: 650px;
+    padding: 10px 0px 10px 0px;
+}
+
+.four-text-div > p {
+    color: #F9FAF8;
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.four-text-div > .four-smaller-p {
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+.four-button-div {
+    height: 80px;
+    width: 250px;
+    padding: 20px 40px;
+}
+
+.four-button-div > button {
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border: 2px solid #F9FAF8;
+    padding: 5px 35px;
+    border-radius: 8px;
+    font-size: 18px;
+    font-family: 'Roboto';
+    font-weight: bold;
 }
