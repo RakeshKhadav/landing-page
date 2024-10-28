@@ -209,3 +209,17 @@
     font-family: 'Roboto';
     font-weight: bold;
 }
+
+.footer {
+    background-color: #1F2937;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer > p {
+    color: #F9FAF8;
+    font-family: 'Roboto';
+    font-size: 14px;
+}
