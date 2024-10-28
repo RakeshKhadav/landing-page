@@ -208,6 +208,7 @@
     font-size: 18px;
     font-family: 'Roboto';
     font-weight: bold;
+    cursor: pointer;
 }
 
 .footer {
