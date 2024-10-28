@@ -126,3 +126,34 @@
     font-size: 14px;
     text-align: center;
 }
+
+.three {
+    background-color: #E5E7EB;
+    height: 350px;
+    padding: 100px 0px 100px 0px;
+}
+
+.three-para {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.three-para > div > p{
+    width: 780px;
+    color: #1F2937;
+    font-family: 'Roboto';
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.three-name > p {
+    outline: 2px solid blue;
+    text-align: right;
+    font-size: 18px;
+    font-family: 'Roboto';
+    font-weight: bold;
+    padding-right: 400px;
+}
